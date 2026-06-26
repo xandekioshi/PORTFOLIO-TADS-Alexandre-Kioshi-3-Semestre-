@@ -3,7 +3,8 @@
 
 Topologia da RedeTodos os cabos estão verdes — a rede física está funcionando corretamente.A estrutura é em estrela hierárquica, com 3 zonas separadas:
 As 3 zonas:
-ZonaSwitchDispositivosFunçãoPúblicaSW-ClientesPC-01, PC-02Usuários que acessam a redeDMZSW-AplicacaoServidor-Web, Servidor-DNSServiços expostos (site + DNS)RestritaSW-DadosServidor-BDBanco de dados protegido
+<img width="723" height="205" alt="image" src="https://github.com/user-attachments/assets/e9c45a3f-9931-4bf1-b791-6371d5db74c1" />
+
 
 Como o tráfego funciona:
 
