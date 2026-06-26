@@ -1,17 +1,17 @@
-# 🌐 Infraestrutura de Rede IPv6 — Simulação no Cisco Packet Tracer
+# Infraestrutura de Rede IPv6 — Simulação no Cisco Packet Tracer
 
 > Projeto acadêmico desenvolvido no curso de **Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)**.  
 > Simula uma arquitetura de rede segmentada em três zonas utilizando **IPv6 nativo**, roteamento inter-VLAN e serviços de aplicação (HTTP + DNS).
 
 ---
 
-## 🗺️ Topologia da Rede
+## Topologia da Rede
 
 ![Topologia da Rede](topologia.png)
 
 ---
 
-## 🏗️ Arquitetura — Zonas de Segurança
+## Arquitetura — Zonas de Segurança
 
 A rede é dividida em **3 zonas isoladas**, interligadas por um roteador central:
 
@@ -23,7 +23,7 @@ A rede é dividida em **3 zonas isoladas**, interligadas por um roteador central
 
 ---
 
-## 🔧 Dispositivos Utilizados
+##  Dispositivos Utilizados
 
 | Dispositivo | Modelo | Quantidade |
 |-------------|--------|-----------|
@@ -34,7 +34,7 @@ A rede é dividida em **3 zonas isoladas**, interligadas por um roteador central
 
 ---
 
-## 📡 Endereçamento IPv6
+##  Endereçamento IPv6
 
 | Dispositivo | Endereço IPv6 | Tipo |
 |-------------|--------------|------|
@@ -48,23 +48,23 @@ A rede é dividida em **3 zonas isoladas**, interligadas por um roteador central
 
 ---
 
-## ⚙️ Serviços Configurados
+##  Serviços Configurados
 
-### 🌍 Servidor-Web
+### Servidor-Web
 - Protocolo: **HTTP / HTTPS**
 - Página customizada servida em `http://api.tads.local`
 
-### 🔍 Servidor-DNS
+###  Servidor-DNS
 - Registro **AAAA** configurado:
   - `api.tads.local` → `2001:db8:fade:200::80`
 
-### 🗄️ Servidor-BD
+###  Servidor-BD
 - Isolado na zona restrita
 - Acessível apenas via roteamento interno
 
 ---
 
-## ✅ Testes de Validação
+## Testes de Validação
 
 ### Teste 1 — Resolução de Nomes + Acesso Web
 ```
@@ -82,18 +82,18 @@ PC-02 > Command Prompt > ping 2001:db8:fade:300::50
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
-📦 projeto-rede-ipv6
- ┣ 📄 README.md
- ┣ 🖼️ topologia.png
- ┗ 📦 projeto.pkt          ← Arquivo do Cisco Packet Tracer
+ projeto-rede-ipv6
+ ┣  README.md
+ ┣  topologia.png
+ ┗  projeto.pkt          ← Arquivo do Cisco Packet Tracer
 ```
 
 ---
 
-## 🚀 Como Reproduzir
+## Como Reproduzir
 
 1. Instale o **Cisco Packet Tracer v8.x** ou superior
 2. Abra o arquivo `projeto.pkt`
@@ -102,9 +102,11 @@ PC-02 > Command Prompt > ping 2001:db8:fade:300::50
 
 ---
 
-## 👨‍💻 Tecnologias
+##  Tecnologias
 
 ![IPv6](https://img.shields.io/badge/IPv6-Nativo-blue)
+
+(claude foi utilizado para ajudar a formatar o arquivo readme)
 ![Cisco](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7)
 ![DNS](https://img.shields.io/badge/DNS-AAAA%20Record-green)
 ![SLAAC](https://img.shields.io/badge/Autoconfig-SLAAC-orange)
