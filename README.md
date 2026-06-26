@@ -38,14 +38,14 @@ A rede é dividida em **3 zonas isoladas**, interligadas por um roteador central
 
 | Dispositivo | Endereço IPv6 | Tipo |
 |-------------|--------------|------|
-| Roteador G0/0 | `2001:db8:fade:100::1/64` | Gateway Clientes |
-| Roteador G0/1 | `2001:db8:fade:200::1/64` | Gateway DMZ |
-| Roteador G0/2 | `2001:db8:fade:300::1/64` | Gateway Dados |
-| Servidor-DNS | `2001:db8:fade:200::10/64` | Estático |
-| Servidor-Web | `2001:db8:fade:200::80/64` | Estático |
-| Servidor-BD | `2001:db8:fade:300::50/64` | Estático |
-| PC-01 / PC-02 | `2001:db8:fade:100::xxxx` | SLAAC (automático) |
-
+| Roteador G0/0 | `2001:db8:fade:100::1/64` | Gateway Clientes |  `2001:0db8:fade:0100:0000:0000:0000:0001`
+| Roteador G0/1 | `2001:db8:fade:200::1/64` | Gateway DMZ |  `2001:0db8:fade:0200:0000:0000:0000:0001`
+| Roteador G0/2 | `2001:db8:fade:300::1/64` | Gateway Dados |  `2001:0db8:fade:0300:0000:0000:0000:0001`
+| Servidor-DNS | `2001:db8:fade:200::10/64` | Estático |  `2001:0db8:fade:0200:0000:0000:0000:0001`
+| Servidor-Web | `2001:db8:fade:200::80/64` | Estático |  `2001:0db8:fade:0200:0000:0000:0000:0001`
+| Servidor-BD | `2001:db8:fade:300::50/64` | Estático |  `2001:0db8:fade:0300:0000:0000:0000:0001`
+| PC-01 / PC-02 | `2001:db8:fade:100::xxxx` | SLAAC (automático) |  
+ 
 ---
 
 ##  Serviços Configurados
