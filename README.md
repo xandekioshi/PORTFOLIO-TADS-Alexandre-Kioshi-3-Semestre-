@@ -73,6 +73,9 @@ PC-01 > Web Browser > http://api.tads.local
 **Resultado esperado:** Página customizada renderizada, comprovando:
 - Consulta DNS AAAA bem-sucedida
 - Roteamento G0/0 → G0/1 funcional
+- Adendo:
+- O teste acima não foi bem sucedido devido um próprio erro do packet tracker, nao acessando a pagina desejada
+![Topologia da Rede](foto_pagina.png)
 
 ### Teste 2 — Roteamento para Zona de Dados
 ```
