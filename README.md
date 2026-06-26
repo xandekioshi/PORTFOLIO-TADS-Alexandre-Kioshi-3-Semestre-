@@ -36,8 +36,8 @@ A rede é dividida em **3 zonas isoladas**, interligadas por um roteador central
 
 ##  Endereçamento IPv6
 
-| Dispositivo | Endereço IPv6 | Tipo |
-|-------------|--------------|------|
+| Dispositivo | Endereço IPv6 | Tipo | IP-REGRA-0
+|-------------|--------------|------|-------|
 | Roteador G0/0 | `2001:db8:fade:100::1/64` | Gateway Clientes |  `2001:0db8:fade:0100:0000:0000:0000:0001`
 | Roteador G0/1 | `2001:db8:fade:200::1/64` | Gateway DMZ |  `2001:0db8:fade:0200:0000:0000:0000:0001`
 | Roteador G0/2 | `2001:db8:fade:300::1/64` | Gateway Dados |  `2001:0db8:fade:0300:0000:0000:0000:0001`
