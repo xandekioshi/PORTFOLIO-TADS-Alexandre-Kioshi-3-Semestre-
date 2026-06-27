@@ -82,6 +82,14 @@ PC-01 > Web Browser > http://api.tads.local
 PC-02 > Command Prompt > ping 2001:db8:fade:300::50
 ```
 **Resultado esperado:** Respostas ICMP do Servidor-BD, comprovando roteamento inter-zona.
+![Topologia da Rede](ping.png)
+
+### Teste 2 — Fluxo de uma PDU DNS/HTTP
+![Topologia da Rede](pdu.png)
+
+
+
+
 
 ---
 
