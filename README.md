@@ -9,10 +9,7 @@
 
 ![Topologia da Rede](topologia.png)
 
----
-
-## Arquitetura — Zonas de Segurança
-
+Estrela Simples
 A rede é dividida em **3 zonas isoladas**, interligadas por um roteador central:
 
 | Zona | Sub-rede IPv6 | Switch | Dispositivos | Função |
