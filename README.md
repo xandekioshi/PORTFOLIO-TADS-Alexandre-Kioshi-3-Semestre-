@@ -104,7 +104,7 @@ PC-02 > Command Prompt > ping 2001:db8:fade:300::50
 ## Como Reproduzir
 
 1. Instale o **Cisco Packet Tracer v8.x** ou superior
-2. Abra o arquivo `projeto.pkt`
+2. Abra o arquivo `arquivo cisco alexandre.pkt`
 3. Siga os passos de configuração da CLI do `Roteador-Core`
 4. Execute os testes do Passo 6 para validar a infraestrutura
 
